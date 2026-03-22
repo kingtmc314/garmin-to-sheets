@@ -1,9 +1,9 @@
 name: Garmin to Google Sheets Sync
 
 on:
-  # Runs automatically every hour at minute 0
   schedule:
-    - cron: '0 * * * *'
+    - cron: '50 23 * * *' # Runs at 23:50 UTC every day
+  workflow_dispatch:
   
   # Allows you to click a button to run it manually for testing
   workflow_dispatch:

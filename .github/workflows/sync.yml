@@ -27,4 +27,4 @@ jobs:
           GARMIN_EMAIL: ${{ secrets.GARMIN_EMAIL }}
           GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
-        run: python your_script_name.py # Make sure this matches your actual python file name
+        run: python main.py # Make sure this matches your actual python file name

@@ -1,0 +1,3 @@
+garminconnect
+gspread
+oauth2client

@@ -5,10 +5,7 @@ on:
     - cron: '50 23 * * *' # Runs at 23:50 UTC every day
   workflow_dispatch:
   
-  # Allows you to click a button to run it manually for testing
-  workflow_dispatch:
-
-jobs:
+  jobs:
   sync-data:
     runs-on: ubuntu-latest
 
